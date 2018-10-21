@@ -1,0 +1,26 @@
+.nav-icon {
+  height: 30px;
+}
+
+.navbar{
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+#navbarHeader{
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+.cart-img{
+  position: relative;
+  float: right;
+}
+
+@media only screen and (max-width: 900px) {
+  .cart-img{
+    float: none;
+  }
+}

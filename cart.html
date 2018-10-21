@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>SHOEZ</title>
+  <title>SHOEZ - cart</title>
   <!-- ICON -->
   <link rel="icon" href="/assets/icons/shoe-icon.png" type="png" sizes="20x20">
 
@@ -44,13 +44,13 @@
     </div>
     <div class="navbar navbar-dark bg-dark box-shadow">
       <div class="container d-flex justify-content-between">
-        <a href="#" class="navbar-brand d-flex align-items-center">
+        <a href="index.html" class="navbar-brand d-flex align-items-center">
           <strong>SHOEZ</strong>
         </a>
 
-        <a id="cartBtn" class="nav-item nav-link" href="cart.html" style="position: relative;">
+        <a id="cartBtn" class="nav-item nav-link" href="cart.html">
           <span class="badge badge-success d-none cart-badge">2</span>
-          <img src="/assets/icons/shopping-cart.svg" class="nav-icon" />
+          <img src="assets/icons/shopping-cart.svg" class="nav-icon" />
         </a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader"
@@ -65,17 +65,24 @@
 
     <section class="jumbotron m-0 text-center">
       <div class="container">
-        <h1 class="jumbotron-heading">Footwear</h1>
-        <p class="lead text-muted">Since 2000, SHOEZ has specialised in supplying the finest brands in footwear,
-          including Nike, adidas, ASICS and Reebok, as well as minimal classics from Vans and Converse, plus ‘Made in
-          England’ silhouettes from New Balance.
-        </p>
+        <h1 class="jumbotron-heading">Your cart</h1>
       </div>
     </section>
 
     <div class="album py-5 bg-light">
       <div class="container">
-        <div class="row items-container"></div>
+        <div class="cart-items-container">
+        </div>
+      </div>
+    </div>
+
+    <div class="album py-5 bg-light">
+      <div class="container">
+        <div class="">
+          <div><strong>Subtotal:</strong> <span id="subtotal"></span></div>
+          <div><strong>Tax:</strong> <span id="tax"></span></div>
+          <div><strong>Total:</strong> <span id="total"></span></div>
+        </div>
       </div>
     </div>
 
@@ -98,7 +105,7 @@
     crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
   <script src="/assets/js/default.js"></script>
-  <script src="/assets/js/shop.js"></script>
+  <script src="/assets/js/cart.js"></script>
 </body>
 
 </html>

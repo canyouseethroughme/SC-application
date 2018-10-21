@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Nike Air VaporMax Plus",
+    "price": "170",
+    "image": "nike-vapor-max"
+  },
+  {
+    "id": 2,
+    "name": "Nike Air Max 97",
+    "price": "145",
+    "image": "nike-air-max97"
+  },
+  {
+    "id": 3,
+    "name": "Adidas Originals POD-S3.1",
+    "price": "100",
+    "image": "adidas-Originals POD-S3.1"
+  },
+  {
+    "id": 4,
+    "name": "Fila Disruptor II Premium",
+    "price": "80",
+    "image": "Fila-Disruptor-II-Premium"
+  },
+  {
+    "id": 5,
+    "name": "Vans Anaheim ERA 95",
+    "price": "60",
+    "image": "Vans-Anaheim-Era-95"
+  },
+  {
+    "id": 6,
+    "name": "Reebok Classic Leather",
+    "price": "65",
+    "image": "Reebok-Classic-Leather"
+  },
+  {
+    "id": 7,
+    "name": "Nike Air Max270 Bowfin",
+    "price": "125",
+    "image": "Nike-Air-Max-270-Bowfin"
+  },
+  {
+    "id": 8,
+    "name": "Converse All Star 70s OX",
+    "price": "75",
+    "image": "Converse-All-Star-70s-Ox"
+  },
+  {
+    "id": 9,
+    "name": "Asics GEL-DS Trainer",
+    "price": "115",
+    "image": "ASICS-GEL-DS-Trainer"
+  }
+]
